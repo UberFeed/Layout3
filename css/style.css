@@ -1,3 +1,61 @@
+root {
+  font-family: 'Poppins';
+  font-size: 16px;
+}
 
+body {
+  margin: 0;
+}
 
-/*# sourceMappingURL=style.css.map */
+body .header .header__menu {
+  height: 50px;
+  background-color: #ba0000;
+}
+
+body .header .header__menu .header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 7px;
+}
+
+body .header .header__menu .wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+body .header .header__menu .wrapper .dropdown {
+  font-family: 'Poppins';
+}
+
+body .header .header__menu .wrapper .dropdown a {
+  font-size: 0.875rem;
+}
+
+body .header .header__menu .wrapper .dropdown .btn-secondary {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+body .header .header__menu .wrapper .dropdown .btn-secondary:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+body .header .header__menu .wrapper .dropdown .dropdown-menu {
+  min-width: 5rem;
+}
+
+body .header .header__menu .wrapper img {
+  height: 16px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+body .header .header__menu .wrapper span {
+  font-size: 0.875rem;
+  color: #fff;
+}
