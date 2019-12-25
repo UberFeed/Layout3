@@ -226,3 +226,129 @@ body .header .header__info .default-button a {
   text-decoration: none;
   font-weight: bold;
 }
+
+body .services {
+  font-family: 'Poppins';
+}
+
+body .services .wrapper__services {
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 730px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .services .wrapper__services .services__title {
+  margin-bottom: 100px;
+}
+
+body .services .wrapper__services .services__title p {
+  font-size: 9.375rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.03);
+  font-weight: bold;
+}
+
+body .services .wrapper__services .services__title h2 {
+  margin-top: -160px;
+  font-size: 3.125rem;
+  color: #ba0000;
+  font-weight: bold;
+}
+
+body .services .wrapper__services .services__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body .services .wrapper__services .services__subtitle .services__deliver {
+  width: 270px;
+}
+
+body .services .wrapper__services .services__subtitle .services__deliver img {
+  width: 100%;
+}
+
+body .services .wrapper__services .services__subtitle .services__deliver h5 {
+  margin-top: 30px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ba0000;
+}
+
+body .services .wrapper__services .services__subtitle .services__deliver p {
+  color: #808080;
+}
+
+body .services .wrapper__services .services__subtitle .services__form {
+  background-color: #ba0000;
+  padding: 25px;
+  width: 270px;
+  color: #fff;
+}
+
+body .services .wrapper__services .services__subtitle .services__form h5 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+body .services .wrapper__services .services__subtitle .services__form .horiz {
+  margin: 0;
+  width: 70px;
+  height: 2px;
+  background-color: #ffcc00;
+}
+
+body .services .wrapper__services .services__subtitle .services__form p {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+body .services .wrapper__services .services__subtitle .services__form .btn-group {
+  margin-bottom: 30px;
+}
+
+body .services .wrapper__services .services__subtitle .services__form .btn-group .btn {
+  border: none;
+  border-radius: 0;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body .services .wrapper__services .services__subtitle .services__form .btn-group .fon {
+  width: 160px;
+  background-color: #9d0000;
+  text-align: left;
+}
+
+body .services .wrapper__services .services__subtitle .services__form .btn-group .fok {
+  width: 50px;
+  background-color: #ffcc00;
+}
+
+body .services .wrapper__services .services__subtitle .services__form .default-button a {
+  color: #bf0e00;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
