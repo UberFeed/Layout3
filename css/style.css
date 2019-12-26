@@ -234,7 +234,7 @@ body .services {
 body .services .wrapper__services {
   max-width: 1180px;
   margin: 0 auto;
-  height: 730px;
+  min-height: 730px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,4 +351,64 @@ body .services .wrapper__services .services__subtitle .services__form .default-b
   background-color: #ffcc00;
   text-decoration: none;
   font-weight: bold;
+}
+
+body .about {
+  font-family: 'Poppins';
+  height: 920px;
+  background-image: url(../img/about/back-ground.png);
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+body .about h3 {
+  font-size: 3.125rem;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+body .about .about__wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+body .about .about__wrapper .about__info {
+  margin-top: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body .about .about__wrapper .about__info .about__item {
+  background-color: #fff;
+  width: 370px;
+  max-height: 410px;
+  -webkit-box-shadow: -10px 20px 30px;
+  box-shadow: -10px 20px 30px;
+}
+
+body .about .about__wrapper .about__info .about__item img {
+  width: 100%;
+}
+
+body .about .about__wrapper .about__info .about__item h5 {
+  margin: 30px 0 25px;
+  padding-left: 30px;
+  font-size: 1.25rem;
+  color: #ba0000;
+  font-weight: bold;
+}
+
+body .about .about__wrapper .about__info .about__item ul {
+  list-style-image: url(../img/about/about-items.png);
+  padding-left: 45px;
+  color: #898989;
+  padding-bottom: 30px;
 }
