@@ -412,3 +412,132 @@ body .about .about__wrapper .about__info .about__item ul {
   color: #898989;
   padding-bottom: 30px;
 }
+
+body .about-express {
+  font-family: 'Poppins';
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body .about-express .about-express__wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body .about-express .about-express__wrapper .about-express__img {
+  margin-top: 100px;
+}
+
+body .about-express .about-express__wrapper .about-express__item {
+  margin-top: 100px;
+  width: 570px;
+  min-height: 530px;
+  background-color: #ba0000;
+}
+
+body .about-express .about-express__wrapper .about-express__item .about-express__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  height: 56px;
+  margin-bottom: 50px;
+}
+
+body .about-express .about-express__wrapper .about-express__item .about-express__button span {
+  width: 50%;
+  padding: 18px 0;
+}
+
+body .about-express .about-express__wrapper .about-express__item .about-express__button span:hover {
+  background-color: #ffcc00;
+}
+
+body .about-express .about-express__wrapper .about-express__item .about-express__button span:hover a {
+  color: #ba0000;
+}
+
+body .about-express .about-express__wrapper .about-express__item .about-express__button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body .about-express .about-express__wrapper .btn-group {
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+
+body .about-express .about-express__wrapper .btn-group .btn {
+  border: 2px solid white;
+  border-radius: 0;
+  background-color: #ba0000;
+}
+
+body .about-express .about-express__wrapper .btn-group .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #ffcc00;
+  color: #ba0000;
+  border-color: #ffcc00;
+}
+
+body .about-express .about-express__wrapper .btn-group .one {
+  width: 485px;
+  padding: 14px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .about-express .about-express__wrapper .btn-group .one span {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin: 0;
+  text-align-last: left;
+}
+
+body .about-express .about-express__wrapper .btn-group .one img {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-left: auto;
+  padding: 0 5px;
+}
+
+body .about-express .about-express__wrapper .btn-group .two {
+  width: 50px;
+}
+
+body .about-express .about-express__wrapper .btn-group .dropdown-menu {
+  background-color: #a30000;
+  min-width: 30.35rem;
+  border-radius: 0;
+  border: 2px solid #ffcc00;
+}
+
+body .about-express .about-express__wrapper .btn-group .dropdown-menu a {
+  color: #fff;
+}
+
+body .about-express .about-express__wrapper .btn-group .dropdown-menu a img {
+  margin-right: 12px;
+}
+
+body .about-express .about-express__wrapper .btn-group .dropdown-menu .first {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+body .about-express .about-express__wrapper .btn-group .dropdown-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
