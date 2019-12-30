@@ -428,6 +428,7 @@ body .about-express .about-express__wrapper {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 body .about-express .about-express__wrapper .about-express__img {
@@ -540,4 +541,139 @@ body .about-express .about-express__wrapper .btn-group .dropdown-menu .first {
 
 body .about-express .about-express__wrapper .btn-group .dropdown-menu a:hover {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+body .features {
+  font-family: 'Poppins';
+  height: 350px;
+  background-color: #ba0000;
+}
+
+body .features .features__wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+body .features .features__wrapper .features__text {
+  color: #fff;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-right: auto;
+}
+
+body .features .features__wrapper .features__text h5 {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+body .features .features__wrapper .features__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+body .features .features__wrapper .features__button span {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+body .features .features__wrapper .features__button span a {
+  color: #fff;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: #a00000;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+body .clients {
+  height: 270px;
+}
+
+body .clients .clients__wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+}
+
+body .clients .clients__wrapper img {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border: 2px solid #eedbdb;
+}
+
+body .clients .clients__wrapper img:hover {
+  border-color: #ba0000;
+}
+
+body footer {
+  height: 307px;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("../img/footer/left-img.png"), url("../img/footer/right-img.png");
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+
+body footer .wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100%;
+}
+
+body footer .wrapper div {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+body footer .wrapper div h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d15555;
+}
+
+body footer .wrapper div ul {
+  padding-left: 17px;
+  list-style-image: url("../img/footer/footer-item.png");
+}
+
+body footer .wrapper div ul li a {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #777777;
+}
+
+body footer .wrapper div ul li a:hover {
+  color: #ffcc00;
+}
+
+body footer .wrapper .social ul a:hover {
+  color: #017edf;
 }
