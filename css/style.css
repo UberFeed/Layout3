@@ -355,7 +355,7 @@ body .services .wrapper__services .services__subtitle .services__form .default-b
 
 body .about {
   font-family: 'Poppins';
-  height: 920px;
+  min-height: 920px;
   background-image: url(../img/about/back-ground.png);
   background-repeat: no-repeat;
   max-width: 1920px;
@@ -392,6 +392,7 @@ body .about .about__wrapper .about__info .about__item {
   max-height: 410px;
   -webkit-box-shadow: -10px 20px 30px;
   box-shadow: -10px 20px 30px;
+  margin: 20px 15px;
 }
 
 body .about .about__wrapper .about__info .about__item img {
@@ -437,7 +438,7 @@ body .about-express .about-express__wrapper .about-express__img {
 
 body .about-express .about-express__wrapper .about-express__item {
   margin-top: 100px;
-  width: 570px;
+  max-width: 570px;
   min-height: 530px;
   background-color: #ba0000;
 }
