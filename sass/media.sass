@@ -73,6 +73,16 @@
                 .about__info
                     justify-content: space-around
                     flex-wrap: wrap
+        .features
+            .features__wrapper
+                padding: 15px
+                
+        .clients
+            .clients__wrapper
+                    justify-content: space-around
+                    flex-wrap: wrap
+                    img
+                        margin: 15px
 
 @media screen and ( max-width: 1060px )
     body
@@ -89,7 +99,31 @@
                 .about-express__item
                     .btn-group
                         .one
-                            width: 380px
+                            width: 410px
                         .dropdown-menu
-                            min-width: 20rem
-                            // width: 300px
+                            min-width: 25.6rem
+                                
+@media screen and ( max-width: 900px )
+    body
+        .features
+            .features__wrapper
+                flex-direction: column
+
+@media screen and ( max-width: 1770px )
+    body
+        footer
+            .wrapper
+                justify-content: center
+                .footer__about
+                    margin: 0 50px
+
+@media screen and ( max-width: 1470px )
+    body
+        footer
+            background-image: none
+            .wrapper
+                flex-wrap: wrap
+                justify-content: space-around
+                padding: 20px
+                .footer__about
+                    margin: 10px 30px

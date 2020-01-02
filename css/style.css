@@ -551,7 +551,7 @@ body .features {
 }
 
 body .features .features__wrapper {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -598,12 +598,8 @@ body .features .features__wrapper .features__button span a {
   letter-spacing: 1.5px;
 }
 
-body .clients {
-  height: 270px;
-}
-
 body .clients .clients__wrapper {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -611,7 +607,7 @@ body .clients .clients__wrapper {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 100%;
+  min-height: 270px;
 }
 
 body .clients .clients__wrapper img {
@@ -635,7 +631,7 @@ body footer {
 }
 
 body footer .wrapper {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
